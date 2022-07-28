@@ -6,7 +6,8 @@ btn.addEventListener("click",function(){
   let data=datacolum.value;
   let li=document.createElement("li");
   li.innerText=data;
-  console.log(li)
+  result.appendChild(li);
+  result.focus();
 
     datacolum.value='';     
 });
