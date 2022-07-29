@@ -30,4 +30,10 @@ body{
     margin: 20px;
   
 }
+.button{
+    background-color: red;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+}
 
