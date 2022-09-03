@@ -1,39 +1,9 @@
-body{
-    background-color:#eec0c6;
-    
+.top{
+    margin-top: 2rem;
 }
-.container{
-    background-color: rgb(107, 211, 107);
-    width: 380px;
-    height: 420px;
-    margin-left: 300px;
-    margin-top: 50px;
-}
-.heading{
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
-    padding-top: 20px;
-
-}
-.data-form{
-    text-align: center;
-}
-.add-btn{
-  color: red;
+.card{
+     width: 20rem;
+     color: white;
+   
  
 }
-.programes{
-    background-color: black;
-    color: #ffff;
-    margin: 20px;
-  
-}
-.button{
-    background-color: red;
-    color: #fff;
-    font-family: serif;
-    font-weight: bold;
-}
-
