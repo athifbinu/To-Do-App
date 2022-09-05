@@ -4,6 +4,7 @@ const ItemName=document.getElementById("item-name");
 const ItemQty=document.getElementById("item-qty");
 const list=document.getElementById("list");
 const alert=document.getElementById("alert")
+
 form.addEventListener('submit',function(event){
   event.preventDefault();
   if(ItemName.value !='' && ItemQty.value !=''){
@@ -23,5 +24,25 @@ form.addEventListener('submit',function(event){
     ItemQty.value = '';
     alert.classList.add('alert-success');
     alert.innerHTML = 'Task add Successfuly !';
+    setTimeout(function(){
+      alert.classList.remove('alert-success');
+      alert.innerHTML='';
+    },3000)
+
+  }else {
+    alert.classList.add('alert-warning');
+    alert.innerHTML="Pleas Add Task";
+    setTimeout(() => {
+       alert.classList.remove("alert-warning");
+       alert.innerHTML='';
+    }, timeout);
+  }
+})
+
+// Deleat
+
+list.addEventListener('click',function(event){
+  if(event.target.classList.contains('btn')){
+    event.target.parentElement.parentElement.remove();
   }
 })
