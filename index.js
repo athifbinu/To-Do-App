@@ -1,3 +1,4 @@
+
 const form=document.getElementById("shop-form");
 const ItemName=document.getElementById("item-name");
 const ItemQty=document.getElementById("item-qty");
@@ -21,6 +22,6 @@ form.addEventListener('submit',function(event){
     ItemName.value = '';        //to remove the screen display on the working tyme
     ItemQty.value = '';
     alert.classList.add('alert-success');
-    alert.innerHTML = 'item Added successfully !';
+    alert.innerHTML = 'Task add Successfuly !';
   }
 })
