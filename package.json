@@ -1,7 +1,6 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athifbinu/To-Do-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/athifbinu/To-Do-App/issues"
+  },
+  "homepage": "https://github.com/athifbinu/To-Do-App#readme",
+  "description": ""
 }
