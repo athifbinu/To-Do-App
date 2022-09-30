@@ -1,7 +1,7 @@
 
 const form=document.getElementById("shop-form");
 const ItemName=document.getElementById("item-name");
-const ItemQty=document.getElementById("item-qty");
+const ItemQty=document.getElementById("date");
 const list=document.getElementById("list");
 const alert=document.getElementById("alert")
 
@@ -14,10 +14,11 @@ form.addEventListener('submit',function(event){
     
   
     tr.innerHTML=`
-      <td>${rand}</td>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
       <td>${ItemName.value}</td>
       <td>${ItemQty.value}</td>
       <td><button class="btn btn-danger">deleat</td>
+
     `
     list.appendChild(tr);
     ItemName.value = '';        //to remove the screen display on the working tyme

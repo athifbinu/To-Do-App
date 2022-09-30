@@ -18,15 +18,17 @@
          <form id="shop-form">
              <div class="mb-3">
                  <label for="item-name" class="form-label">New Task</label>
-                 <input type="text" id="item-name" class="form-control">
+                 <input type="text" id="item-name" placeholder="Add task" class="form-control">
+              
              </div>
              <div class="mb-3">
-                 <label for="item-qty" class="form-label">Time</label>
-                 <input type="number" id="item-qty" class="form-control">
+                 <label for="item-qty" class="form-label">New Date</label>
+                 <input type="datetime" id="date"placeholder="Add Date" class="form-control">
              </div>
              <div class="mb-3 d-grid">
                  <button type="submit" class="btn btn-primary">Add Items</button>
              </div>
+        
          </form>
         </div>
       
@@ -40,13 +42,13 @@
      <div class="container">
          <table class="table table-bordered">
              <thead>
-                 <th>ID</th>
-                 <th>Add Task</th>
-                 <th>Add tyme</th>
+                 <th>Tick Me</th>
+                 <th>New Task</th>
+                 <th>New Date</th>
                  <th>Remove</th>
              </thead>
              <tbody id="list">
-
+                
              </tbody>
          </table>
      </div>
